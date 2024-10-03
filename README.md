@@ -114,7 +114,7 @@ Here’s an updated section for your **Spotify Advanced SQL Project and Query Op
 ## solutions
 
 ## EDA 
-''' select * from spotify'''
+``` select * from spotify
 
 select count(*) as total_count from spotify
 
@@ -136,8 +136,9 @@ select * from spotify where duration_min = 0
 delete from spotify where duration_min = 0 
 
 select most_played_on,count(*) as most_played from spotify
-group by most_played_on '''
+group by most_played_on ```
 
+```
  ## solutions 
 
    ## Easy Level
@@ -243,7 +244,7 @@ group by 1
 
 select album,maximum_energy - minimum_energy as difference_between_energy from cte
 order by cte asc
-
+```
 
 ## Query Optimization Technique 
 
