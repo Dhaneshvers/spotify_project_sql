@@ -244,6 +244,7 @@ group by 1
 
 select album,maximum_energy - minimum_energy as difference_between_energy from cte
 order by cte asc
+
 ```
 
 ## Query Optimization Technique 
