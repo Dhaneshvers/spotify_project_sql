@@ -114,7 +114,7 @@ Here’s an updated section for your **Spotify Advanced SQL Project and Query Op
 ## solutions
 
 ## EDA 
-''' select * from spotify
+''' select * from spotify'''
 
 select count(*) as total_count from spotify
 
