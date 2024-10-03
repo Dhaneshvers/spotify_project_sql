@@ -114,6 +114,7 @@ Here’s an updated section for your **Spotify Advanced SQL Project and Query Op
 ## solutions
 
 ## EDA 
+'''
 select * from spotify
 
 select count(*) as total_count from spotify
@@ -137,6 +138,7 @@ delete from spotify where duration_min = 0
 
 select most_played_on,count(*) as most_played from spotify
 group by most_played_on
+'''
 
  ## solutions 
 
