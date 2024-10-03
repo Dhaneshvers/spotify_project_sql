@@ -142,7 +142,7 @@ group by most_played_on ```
  ## solutions 
 
    ## Easy Level
-
+```
 -- 1.)Retrieve the names of all tracks that have more than 1 billion streams.
 
 select * from spotify where stream>1000000000
@@ -244,7 +244,6 @@ group by 1
 
 select album,maximum_energy - minimum_energy as difference_between_energy from cte
 order by cte asc
-
 ```
 
 ## Query Optimization Technique 
